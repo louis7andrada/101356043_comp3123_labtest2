@@ -1,0 +1,71 @@
+.weather-app {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background: #eef7fa; /* Light blue background for the whole app */
+}
+
+.weather-container {
+    max-width: 600px;
+    background: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.weather-header {
+    font-size: 2rem;
+    color: #1e81b0;
+}
+
+.current-date {
+    font-style: italic;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.weather-icon {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin-top: 10px;
+}
+
+.search-box {
+    margin-bottom: 2rem;
+}
+
+.search-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background-color: #1e81b0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #166d8b;
+}
+
+@media (max-width: 768px) {
+    .weather-info {
+        flex-direction: column;
+    }
+}
